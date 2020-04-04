@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailHeroActivity"
+    tools:showIn="@layout/activity_detail_hero">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name">
+
+        </TextView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/alter_egos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alter egos">
+
+        </TextView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/pob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pob">
+
+        </TextView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/first_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="firs app">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
